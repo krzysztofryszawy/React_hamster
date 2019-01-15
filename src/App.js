@@ -1,26 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import lime from '@material-ui/core/colors/lime';
+import pink from '@material-ui/core/colors/pink';
+import { BrowserRouter } from 'react-router-dom';
+
+import MainPage from './MainPage/MainPage';
+
+let theme = createMuiTheme({
+  typography: {
+    useNextVariants: true
+    // fontFamily: 'Poiret One, serif'
+  },
+  palette: {
+    // type: 'dark',
+    primary: lime,
+    secondary: pink
+    // text: {
+    //   primary: '#c2c2c2'
+    // }
+  },
+  status: {
+    danger: 'red'
+  }
+});
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <MuiThemeProvider theme={theme}>
+          <MainPage />
+        </MuiThemeProvider>
+      </BrowserRouter>
     );
   }
 }
