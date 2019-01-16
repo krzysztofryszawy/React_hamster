@@ -99,7 +99,7 @@
     "id": 16,
     "category": "equipment",
     "name": "Projector EPSON",
-    "ownerID": 7,
+    "ownerID": 2433945780010472,
     "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
     "img": "projector"
   },
@@ -107,7 +107,7 @@
     "id": 17,
     "category": "car",
     "name": "Opel Astra DWR5572",
-    "ownerID": 7,
+    "ownerID": 2433945780010472,
     "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
     "img": "opelastra"
   },
@@ -115,7 +115,7 @@
     "id": 18,
     "category": "place",
     "name": "Conference room, ground floor main",
-    "ownerID": 7,
+    "ownerID": 2433945780010472,
     "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
     "img": "conferenceroom1"
   },

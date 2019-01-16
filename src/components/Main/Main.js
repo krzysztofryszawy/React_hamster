@@ -24,7 +24,7 @@ const Main = props => {
   const databaseStuff = databaseStuff_json;
 
   let content = databaseStuff.map(item =>
-    item.ownerID === props.currentPersonId ? (
+    item.ownerID == props.currentPersonId ? (
       <SingleThing
         key={item.id}
         img={item.img}

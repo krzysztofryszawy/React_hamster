@@ -1,51 +1,53 @@
 [
   {
-    "id": 1,
-    "name": "Vincent Vega",
-    "location": "Kraków",
-    "wishList": [],
-    "img": "vincentvega"
-  },
-  {
-    "id": 2,
-    "name": "Jules Winnfield",
-    "location": "Kraków",
-    "wishList": [],
-    "img": "juleswinnfield"
-  },
-  {
-    "id": 3,
-    "name": "Mia Wallace",
-    "location": "Poznań",
-    "wishList": [],
-    "img": "miawallace"
-  },
-  {
-    "id": 4,
-    "name": "Winston Wolfe",
-    "location": "Katowice",
-    "wishList": [],
-    "img": "winstonwolfe"
-  },
-  {
-    "id": 5,
-    "name": "Marsellus Wallace",
-    "location": "Gdańsk",
-    "wishList": [],
-    "img": "marselluswallace"
-  },
-  {
-    "id": 6,
-    "name": "Captain Koons",
-    "location": "Gdynia",
-    "wishList": [],
-    "img": "captainkoons"
-  },
-  {
-    "id": 7,
-    "name": "Butch Coolidge",
-    "location": "Gdynia",
-    "wishList": [],
-    "img": "butchcoolidge"
+    "1": {
+      "id": 1,
+      "name": "Vincent Vega",
+      "location": "Kraków",
+      "wishList": [],
+      "img": "vincentvega"
+    },
+    "2": {
+      "id": 2,
+      "name": "Jules Winnfield",
+      "location": "Kraków",
+      "wishList": [],
+      "img": "juleswinnfield"
+    },
+    "3": {
+      "id": 3,
+      "name": "Mia Wallace",
+      "location": "Poznań",
+      "wishList": [],
+      "img": "miawallace"
+    },
+    "4": {
+      "id": 4,
+      "name": "Winston Wolfe",
+      "location": "Katowice",
+      "wishList": [],
+      "img": "winstonwolfe"
+    },
+    "5": {
+      "id": 5,
+      "name": "Marsellus Wallace",
+      "location": "Gdańsk",
+      "wishList": [],
+      "img": "marselluswallace"
+    },
+    "6": {
+      "id": 6,
+      "name": "Captain Koons",
+      "location": "Gdynia",
+      "wishList": [],
+      "img": "captainkoons"
+    },
+    "2433945780010472": {
+      "id": 2433945780010472,
+      "name": "Butch Coolidge",
+      "location": "Gdynia",
+      "wishList": [],
+      "img": "butchcoolidge"
+    }
   }
 ]

@@ -23,7 +23,6 @@ const WishList = props => {
   const { classes } = props;
   const databasePeople = databasePeople_json;
 
-  console.log(databasePeople);
   return (
     <React.Fragment>
       <div className={classes.root}>
