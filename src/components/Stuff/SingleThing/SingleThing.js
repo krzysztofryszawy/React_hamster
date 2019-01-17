@@ -57,6 +57,10 @@ const styles = theme => ({
 class SingleThing extends Component {
   state = { expanded: false };
 
+  addToWishlistHandler = e => {
+    console.log(this.props.id);
+  };
+
   handleExpandClick = () => {
     this.setState(state => ({ expanded: !state.expanded }));
   };
@@ -83,7 +87,10 @@ class SingleThing extends Component {
                 >
                   <ExpandMoreIcon />
                 </IconButton>
-                <IconButton aria-label="Add to favorites">
+                <IconButton
+                  onClick={this.addToWishlistHandler}
+                  aria-label="Add to favorites"
+                >
                   <FavoriteIcon fontSize="small" />
                 </IconButton>
                 <IconButton aria-label="Share">

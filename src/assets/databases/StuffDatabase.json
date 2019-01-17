@@ -1,170 +1,172 @@
 [
   {
-    "id": 4,
-    "category": "equipment",
-    "name": "Projector EPSON 4K",
-    "ownerID": 1,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "projector"
-  },
-  {
-    "id": 5,
-    "category": "car",
-    "name": "Ford Focus WE29840",
-    "ownerID": 1,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "fordfocus"
-  },
-  {
-    "id": 6,
-    "category": "place",
-    "name": "Conference room, Sigma",
-    "ownerID": 2,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "conferenceroom2"
-  },
-  {
-    "id": 7,
-    "category": "equipment",
-    "name": "Projector EPSON",
-    "ownerID": 2,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "projector"
-  },
-  {
-    "id": 8,
-    "category": "equipment",
-    "name": "Projector EPSON",
-    "ownerID": 3,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "projector"
-  },
-  {
-    "id": 9,
-    "category": "place",
-    "name": "Conference room, no.1",
-    "ownerID": 3,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "conferenceroom1"
-  },
-  {
-    "id": 10,
-    "category": "equipment",
-    "name": "Projector EPSON 4K",
-    "ownerID": 4,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "projector"
-  },
-  {
-    "id": 11,
-    "category": "car",
-    "name": "Ford Mondeo GA2544X",
-    "ownerID": 4,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "fordmondeo"
-  },
-  {
-    "id": 12,
-    "category": "place",
-    "name": "Conference room, no.2",
-    "ownerID": 5,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "conferenceroom2"
-  },
-  {
-    "id": 13,
-    "category": "equipment",
-    "name": "Projector LG",
-    "ownerID": 5,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "projector"
-  },
-  {
-    "id": 14,
-    "category": "place",
-    "name": "Conference room, no.3",
-    "ownerID": 6,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "conferenceroom3"
-  },
-  {
-    "id": 15,
-    "category": "car",
-    "name": "Ford Focus GA2543X",
-    "ownerID": 6,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "fordfocus"
-  },
-  {
-    "id": 16,
-    "category": "equipment",
-    "name": "Projector EPSON",
-    "ownerID": 2433945780010472,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "projector"
-  },
-  {
-    "id": 17,
-    "category": "car",
-    "name": "Opel Astra DWR5572",
-    "ownerID": 2433945780010472,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "opelastra"
-  },
-  {
-    "id": 18,
-    "category": "place",
-    "name": "Conference room, ground floor main",
-    "ownerID": 2433945780010472,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "conferenceroom1"
-  },
-  {
-    "id": 19,
-    "category": "car",
-    "name": "Opel Insignia DWR5571",
-    "ownerID": 2,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "opelinsignia"
-  },
-  {
-    "id": 20,
-    "category": "equipment",
-    "name": "Projector Benq",
-    "ownerID": 3,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "projector"
-  },
-  {
-    "id": 21,
-    "category": "car",
-    "name": "Opel Astra DWR5573",
-    "ownerID": 1,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "opelastra"
-  },
-  {
-    "id": 22,
-    "category": "place",
-    "name": "Conference room, ground floor small",
-    "ownerID": 4,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "conferenceroom2"
-  },
-  {
-    "id": 23,
-    "category": "equipment",
-    "name": "Projector EPSON 4K",
-    "ownerID": 5,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "projector"
-  },
-  {
-    "id": 24,
-    "category": "place",
-    "name": "Conference room, floor1 small",
-    "ownerID": 6,
-    "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
-    "img": "conferenceroom3"
+    "a4": {
+      "id": "a4",
+      "category": "equipment",
+      "name": "Projector EPSON 4K",
+      "ownerID": 1,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "projector"
+    },
+    "a5": {
+      "id": "a5",
+      "category": "car",
+      "name": "Ford Focus WE29840",
+      "ownerID": 1,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "fordfocus"
+    },
+    "a6": {
+      "id": "a6",
+      "category": "place",
+      "name": "Conference room, Sigma",
+      "ownerID": 2,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "conferenceroom2"
+    },
+    "a7": {
+      "id": "a7",
+      "category": "equipment",
+      "name": "Projector EPSON",
+      "ownerID": 2,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "projector"
+    },
+    "b8": {
+      "id": "b8",
+      "category": "equipment",
+      "name": "Projector EPSON",
+      "ownerID": 3,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "projector"
+    },
+    "b9": {
+      "id": "b9",
+      "category": "place",
+      "name": "Conference room, no.1",
+      "ownerID": 3,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "conferenceroom1"
+    },
+    "b10": {
+      "id": "b10",
+      "category": "equipment",
+      "name": "Projector EPSON 4K",
+      "ownerID": 4,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "projector"
+    },
+    "b11": {
+      "id": "b11",
+      "category": "car",
+      "name": "Ford Mondeo GA2544X",
+      "ownerID": 4,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "fordmondeo"
+    },
+    "b12": {
+      "id": "b12",
+      "category": "place",
+      "name": "Conference room, no.2",
+      "ownerID": 5,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "conferenceroom2"
+    },
+    "c13": {
+      "id": "c13",
+      "category": "equipment",
+      "name": "Projector LG",
+      "ownerID": 5,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "projector"
+    },
+    "c14": {
+      "id": "c14",
+      "category": "place",
+      "name": "Conference room, no.3",
+      "ownerID": 6,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "conferenceroom3"
+    },
+    "c15": {
+      "id": "c15",
+      "category": "car",
+      "name": "Ford Focus GA2543X",
+      "ownerID": 6,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "fordfocus"
+    },
+    "d16": {
+      "id": "d16",
+      "category": "equipment",
+      "name": "Projector EPSON",
+      "ownerID": 2433945780010472,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "projector"
+    },
+    "d17": {
+      "id": "d17",
+      "category": "car",
+      "name": "Opel Astra DWR5572",
+      "ownerID": 2433945780010472,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "opelastra"
+    },
+    "e18": {
+      "id": "e18",
+      "category": "place",
+      "name": "Conference room, ground floor main",
+      "ownerID": 2433945780010472,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "conferenceroom1"
+    },
+    "e19": {
+      "id": "e19",
+      "category": "car",
+      "name": "Opel Insignia DWR5571",
+      "ownerID": 2,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "opelinsignia"
+    },
+    "e20": {
+      "id": "e20",
+      "category": "equipment",
+      "name": "Projector Benq",
+      "ownerID": 3,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "projector"
+    },
+    "f21": {
+      "id": "f21",
+      "category": "car",
+      "name": "Opel Astra DWR5573",
+      "ownerID": 1,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "opelastra"
+    },
+    "f22": {
+      "id": "f22",
+      "category": "place",
+      "name": "Conference room, ground floor small",
+      "ownerID": 4,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "conferenceroom2"
+    },
+    "f23": {
+      "id": "f23",
+      "category": "equipment",
+      "name": "Projector EPSON 4K",
+      "ownerID": 5,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "projector"
+    },
+    "g24": {
+      "id": "g24",
+      "category": "place",
+      "name": "Conference room, floor1 small",
+      "ownerID": 6,
+      "description": "Place for future development. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis harum dolorum perspiciatis fugiat eaque dolores cupiditate laborum quam facilis rem ducimus doloribus facere soluta repellendus, culpa atque unde voluptatum quasi incidunt? Laudantium amet inventore aliquid reprehenderit iusto facere, atque tempore.",
+      "img": "conferenceroom3"
+    }
   }
 ]

@@ -9,14 +9,14 @@ import Stuff from '../components/Stuff/Stuff';
 import Help from '../components/Help/Help';
 import BottomNav from '../components/BottomNav/BottomNav';
 import NavBar from '../components/NavBar/NavBar';
-import databasePeople_json from '../assets/databases/PeopleDatabase.json';
 
 const styles = theme => ({
   '@global': {
     a: {
       textDecoration: 'none',
       color: 'inherit'
-    }
+    },
+    body: {}
   }
 });
 
@@ -76,7 +76,7 @@ class MainPage extends Component {
         window.FB.login();
       } else {
         window.FB.api('/me', user => {
-          console.log(user.id);
+          // console.log(user.id);
           this.getPersonHandler(user.id);
         });
       }
@@ -108,18 +108,19 @@ class MainPage extends Component {
       >
         <CssBaseline />
         <NavBar />
+
         <button style={{ marginTop: '5rem' }} onClick={this.fbLogin}>
           LOGIN FB
         </button>
         <button style={{ marginTop: '5rem' }} onClick={this.fbLogout}>
           LOGOUT FB
         </button>
-        <button style={{ marginTop: '5rem' }} onClick={this.savePersonHandler}>
+        {/* <button style={{ marginTop: '5rem' }} onClick={this.savePersonHandler}>
           SAVE FIREBASE
         </button>
         <button style={{ marginTop: '5rem' }} onClick={this.getPersonHandler}>
           LOAD FIREBASE
-        </button>
+        </button> */}
         {this.state.currentPerson.name || 'zaloguj sie'}
         <Route
           path="/"

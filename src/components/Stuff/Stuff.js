@@ -8,6 +8,7 @@ import SingleThing from './SingleThing/SingleThing';
 
 const styles = theme => ({
   root: {
+    overflow: 'hidden',
     flexGrow: 1,
     marginTop: '5rem',
     padding: theme.spacing.unit * 1,
@@ -27,12 +28,13 @@ const styles = theme => ({
 
 const Stuff = props => {
   const { classes } = props;
-  const databaseStuff = databaseStuff_json;
+  let databaseStuff = Object.values(databaseStuff_json[0]);
 
   let content = databaseStuff.map(item =>
     item.ownerID != props.currentPersonId ? (
       <SingleThing
         key={item.id}
+        id={item.id}
         img={item.img}
         name={item.name}
         description={item.description}

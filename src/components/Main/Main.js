@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import databaseStuff_json from '../../assets/databases/StuffDatabase.json';
+// import databaseStuff_json from '../../assets/databases/StuffDatabase.json';
 import SingleThing from '../Stuff/SingleThing/SingleThing';
+import axios from '../../axios-instance';
+import Spinner from '../Spinner/Spinner';
 
 const styles = theme => ({
   root: {
+    // background: 'linear-gradient(to right, #ece9e6, #ffffff)',
+    overflow: 'hidden',
     flexGrow: 1,
     marginTop: '5rem',
     padding: theme.spacing.unit * 3,
@@ -19,64 +23,100 @@ const styles = theme => ({
   }
 });
 
-const Main = props => {
-  const { classes } = props;
-  const databaseStuff = databaseStuff_json;
+class Main extends Component {
+  componentDidMount() {
+    this.getStuffHandler();
+  }
 
-  let content = databaseStuff.map(item =>
-    item.ownerID == props.currentPersonId ? (
-      <SingleThing
-        key={item.id}
-        img={item.img}
-        name={item.name}
-        description={item.description}
-      />
-    ) : null
-  );
-  return (
-    <React.Fragment>
-      <div className={classes.root}>
-        <Grid
-          container
-          direction="row"
-          justify="space-between"
-          alignItems="stretch"
-          spacing={24}
-        >
-          <Grid className={classes.item} item sm={6} xs={12}>
-            <Typography gutterBottom variant="h6" component="h6">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
-              similique nulla rem neque nisi perferendis quis est beatae nihil
-              molestias! Perspiciatis, aperiam aut vitae ab, atque sint
-              blanditiis id quod culpa possimus sequi sapiente maxime neque.
-              Voluptates tempore dolor fuga quis voluptatem minus quasi
-              perspiciatis. Officiis molestias dolores doloremque reiciendis?
-            </Typography>
+  state = {
+    currentThing: {
+      id: 17,
+      category: 'car',
+      name: 'Opel Astra DWR5572',
+      ownerID: 2433945780010472,
+      description: 'DATA SAVED ON FIREBASE',
+      img: 'opelastra'
+    },
+    databaseStuffNEW: []
+  };
+
+  saveThingHandler = () => {
+    axios
+      .put(`/Stuff/${this.state.currentThing.id}.json`, this.state.currentThing)
+      .then(response => {
+        console.log(response);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  };
+
+  getStuffHandler = () => {
+    this.setState({ loading: true });
+    axios
+      .get(`/Stuff.json`)
+      .then(response => {
+        this.setState({ databaseStuffNEW: response.data, loading: false });
+        // console.log('getStuffHandler // response  ', databaseStuffNEW);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  };
+
+  render() {
+    const { classes } = this.props;
+
+    // let databaseStuff = Object.values(databaseStuff_json[0]);
+    // console.table(databaseStuff);
+
+    // console.log(Object.values(this.state.databaseStuffNEW));
+    let content = Object.values(this.state.databaseStuffNEW).map(item =>
+      item.ownerID == this.props.currentPersonId ? (
+        <SingleThing
+          key={item.id}
+          id={item.id}
+          img={item.img}
+          name={item.name}
+          description={item.description}
+        />
+      ) : null
+    );
+
+    // console.log('content', content);
+    // console.log('databaseStuffNEW', this.state.databaseStuffNEW);
+
+    return (
+      <React.Fragment>
+        <div className={classes.root}>
+          <Grid
+            container
+            direction="row"
+            justify="space-between"
+            alignItems="stretch"
+            spacing={24}
+          >
+            {/* <button onClick={this.saveThingHandler}>SAVE THING</button> */}
+            {/* <button onClick={this.getStuffHandler}>LOAD ALL STUFF</button> */}
+            <Grid className={classes.item} item sm={6} xs={12}>
+              <Typography gutterBottom variant="h5" component="h5">
+                Welcome to Hamster App.
+              </Typography>
+            </Grid>
+            <Grid className={classes.item} item sm={6} xs={12}>
+              <Typography variant="h5" component="h3">
+                Your treasures list below. (alpha ☕)
+              </Typography>
+              <Typography component="p">
+                Check if someone offers you anything to exchange
+              </Typography>
+            </Grid>
           </Grid>
-          <Grid className={classes.item} item sm={6} xs={12}>
-            <Typography variant="h5" component="h3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
-              similique nulla rem neque nisi perferendis quis est beatae nihil
-              molestias! Perspiciatis, aperiam aut vitae ab, atque sint
-              blanditiis id quod culpa possimus sequi sapiente maxime neque.
-              Voluptates tempore dolor fuga quis voluptatem minus quasi
-              perspiciatis. Officiis molestias dolores doloremque reiciendis?
-              (alpha ☕)
-            </Typography>
-            <Typography component="p">
-              Place for future development. Lorem ipsum dolor, sit amet
-              consectetur adipisicing elit. Nobis harum dolorum perspiciatis
-              fugiat eaque dolores cupiditate laborum quam facilis rem ducimus
-              doloribus facere soluta repellendus, culpa atque unde voluptatum
-              quasi incidunt? Laudantium amet inventore aliquid reprehenderit
-              iusto facere, atque tempore.
-            </Typography>
-          </Grid>
-        </Grid>
-        {content}
-      </div>
-    </React.Fragment>
-  );
-};
+          {this.state.loading ? <Spinner /> : content}
+        </div>
+      </React.Fragment>
+    );
+  }
+}
 
 export default withStyles(styles)(Main);
